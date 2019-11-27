@@ -20,7 +20,7 @@ class CirclePainter extends CustomPainter {
       this.circleColor = const CircleColor(
           start: const Color(0xFFFF5722), end: const Color(0xFFFFC107))}) {
     circlePaint..style = PaintingStyle.fill;
-    maskPaint..blendMode = BlendMode.clear;
+    //maskPaint..blendMode = BlendMode.clear;  crashed flutter_web
   }
 
   @override
